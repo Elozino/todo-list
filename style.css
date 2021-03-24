@@ -22,7 +22,6 @@ header{
 }
 .task-input{
    padding: 0.5rem;
-   margin-top: 10px;
    border-radius: 50px;
    width: 70%;
    font-size: 1.2rem;
@@ -31,7 +30,6 @@ header{
 }
 .task-input-button{
    padding: 13px;
-   margin-top: 10px;
    font-size: 2rem;
    background: none;
    border: none;
@@ -43,13 +41,11 @@ header{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-bottom: 70px;
    text-align: center;
    /*min-height: auto;*/
 }
 .task{
    padding: 13px;
-   margin-top: 40px;
    border: none;
    border-bottom: 3px #ffe solid;
    border-radius: 5px;
@@ -59,15 +55,21 @@ header{
    text-align: left;
 }
 .remove{
-   padding: 13px;
-   margin: 40px 0 0 15px;
+   padding: 10px;
+   margin: 20px 0 0 15px;
    color: rgb(212, 204, 204);
    background: none;
    border: none;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    cursor: pointer;
    outline: none;
 }
 footer{
-   text-align: center;
+   position: absolute;
+   top: 95%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
+ footer p{
+   text-align: center;
+ }
